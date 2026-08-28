@@ -4,7 +4,8 @@ Portfolio project by **Suhail Ahmed**: a shift operating tool for a warehouse Ar
 
 Enter who showed up and how much volume is coming. The tool places people on dock, stow, pick, and pack; blocks illegal PIT placements; evaluates SQDC; and generates huddle and handoff text.
 
-**Live demo:** [area-manager-shift-tool.vercel.app](https://area-manager-shift-tool.vercel.app)
+**Live demo:** [area-manager-shift-tool.vercel.app](https://area-manager-shift-tool.vercel.app)  
+**GitHub:** [github.com/Suhailcodeswell/area-manager-shift-tool](https://github.com/Suhailcodeswell/area-manager-shift-tool)
 
 ## Run locally
 

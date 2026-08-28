@@ -13,7 +13,7 @@ import { PATHS, type Associate, type PathId, type Scenario, type ShiftState } fr
  */
 export const SAMPLE_SPEC = {
   site: "Inbound area, fictional Canadian 3PL warehouse",
-  dateLabel: "Saturday 29 Aug 2026 · 06:00–18:00",
+  dateLabel: "29 Aug 2026 · 06:00–18:00 (peak day shift)",
   roster: 36,
   processAssistants: 2,
   pitDesignated: 8,

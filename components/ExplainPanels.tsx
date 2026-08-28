@@ -30,7 +30,7 @@ export function StartHerePanel({
         </p>
         <p className="mt-3 text-sm leading-relaxed">
           Built for a <strong>fictional Canadian 3PL warehouse</strong>.{" "}
-          <strong>Sample Saturday</strong> is a demo file with example numbers.{" "}
+          <strong>Sample shift</strong> is a demo file with example numbers.{" "}
           <strong>New live shift</strong> is a blank board for your own inputs.
         </p>
         <div className="mt-4 flex flex-wrap gap-2">
@@ -39,7 +39,7 @@ export function StartHerePanel({
             onClick={onSample}
             className="border border-[var(--safety)] bg-[var(--safety)] px-3 py-2 text-xs font-medium text-[#1a1608]"
           >
-            Load sample Saturday
+            Load sample shift
           </button>
           <button
             type="button"
@@ -90,7 +90,7 @@ export function TourPanel({ onGoFloor }: { onGoFloor: () => void }) {
     <section className="border border-[var(--line)] bg-[var(--panel)] p-5">
       <h2 className="text-lg font-medium">Quick tour</h2>
       <p className="mt-2 text-sm text-[var(--muted)]">
-        Load sample Saturday first, then follow these steps.
+        Load the sample shift first, then follow these steps.
       </p>
       <ol className="mt-4 space-y-4">
         {TOUR_STEPS.map((step) => (

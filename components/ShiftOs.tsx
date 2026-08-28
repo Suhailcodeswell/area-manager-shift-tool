@@ -86,7 +86,7 @@ export function ShiftOs() {
       <header className="mb-4 flex flex-wrap items-end justify-between gap-4 border-b border-[var(--line)] pb-4">
         <div>
           <p
-            className="text-[11px] tracking-[0.22em] uppercase text-[var(--safety)]"
+            className="text-sm tracking-wide text-[var(--safety)]"
             style={{ fontFamily: "var(--font-display), sans-serif" }}
           >
             A project by Suhail Ahmed
@@ -99,7 +99,7 @@ export function ShiftOs() {
           </h1>
           <p className="mt-1 max-w-2xl text-sm text-[var(--muted)]">
             {shift.siteName}. {shift.siteNote} Put today&apos;s numbers in, or
-            load the sample Saturday to explore the demo.
+            load the sample shift to explore the demo.
           </p>
         </div>
         <div className="flex flex-wrap gap-2">
@@ -108,7 +108,7 @@ export function ShiftOs() {
             onClick={loadSample}
             className="border border-[var(--safety)] bg-[var(--safety)] px-3 py-2 text-xs font-medium tracking-wide text-[#1a1608]"
           >
-            Load sample Saturday
+            Load sample shift
           </button>
           <button
             type="button"
@@ -484,7 +484,7 @@ export function ShiftOs() {
             </form>
           </section>
           <section className="border border-[var(--line)] bg-[var(--panel)] p-4 text-sm">
-            <h2 className="text-sm font-medium">Packed 5-why (sample Saturday)</h2>
+            <h2 className="text-sm font-medium">Packed 5-why (sample shift)</h2>
             <p className="mt-2 text-[var(--muted)]">{rca.problem}</p>
             <ol className="mt-3 list-decimal space-y-1 pl-4 text-xs">
               {rca.whys.map((w) => (

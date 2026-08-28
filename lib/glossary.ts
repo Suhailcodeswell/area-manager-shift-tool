@@ -82,7 +82,7 @@ export const TOUR_STEPS = [
   },
   {
     title: "3. Use the hour slider",
-    body: "Move to 10:00 on the sample Saturday. Trucks bunch and Door 4 has damaged freight.",
+    body: "Move to 10:00 on the sample shift. Trucks bunch and Door 4 has damaged freight.",
   },
   {
     title: "4. Move people",

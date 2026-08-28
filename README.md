@@ -21,7 +21,7 @@ Open [http://localhost:3000](http://localhost:3000).
 | Tab | Purpose |
 |-----|---------|
 | **Start here** | What the tool does, load sample or live shift |
-| **5-min tour** | Walkthrough of the sample Saturday |
+| **5-min tour** | Walkthrough of the sample shift |
 | **Glossary** | Warehouse operations terms |
 | **Floor** | Main tool: place people, edit volume, read warnings |
 | **Huddle** | Generated stand-up text from the board |
